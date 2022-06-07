@@ -4,7 +4,7 @@ Lista de exercícios de python https://wiki.python.org.br/ListaDeExercicios
 
 No site wiki.python.org.br existem 9 listas de exercícios nos quais são: 
 
-1º Estrutura Sequencial
+1º Estrutura Sequencial - Ok (07/06/2022)
 
 2º Estrutura de decisão
 
