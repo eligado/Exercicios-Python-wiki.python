@@ -6,4 +6,29 @@
 # comprar apenas galões de 3,6 litros.
 # misturar latas e galões, de forma que o desperdício de tinta seja menor. Acrescente 10% de folga e sempre arredonde
 # os valores para cima, isto é, considere latas cheias.
+import math
+
+metragem = float(input('Entre com a metragem que será pintada(metros quadrados): '))
+litros = metragem / 6 * 1.1
+
+# Latas
+latas = math.ceil(litros / 18)
+valorLata = latas * 80
+print(f'Preço para lata(as) de 18 litros R${valorLata}')
+print(f'Quantidade de lata(as) usadas {latas}')
+
+# Galões
+galao = math.ceil(litros / 3.6)
+valorGalao = galao * 25
+print(f'Preço para galão(ões) de 3.6 litros R${valorGalao}')
+print(f'Quantidade de galão(ões) usadas {galao}')
+
+#misturado
+misturalatas = round(litros / 18)
+misturagalao = round((litros - misturalatas * 18) / 3.6)
+if((litros-(misturalatas*18) % 3.6 != 0)):
+    misturagalao += 1
+    total = (misturalatas * 80) + (misturagalao * 25)
+print(f'Preço para uma compra conjunta entre lata(as) e galão(ões) R${total}')
+print(f'Quantidade de  {misturalatas} lata(as) e {misturagalao} galão(ões)')
 
