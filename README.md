@@ -24,4 +24,4 @@ No site wiki.python.org.br existem 9 listas de exercícios nos quais são:
 
 Os primeiros exercícios feitos foram os da lista de Estrutura Sequencial onde foram feitos os exercícios de número 1 ao 16 no dia 06/06/2022, execícios 17 e 18 foram concluídos no dia 07/06/2022 além do exercício 16 ser refeito para simplificar o mesmo.
 
-Os exercícios da lista de estrutura de decisão foram começados no dia 07/06/2022, onde foi feito os exercícios de número 1 ao 3.
+Os exercícios da lista de estrutura de decisão foram começados no dia 07/06/2022, onde foi feito os exercícios de número 1 ao 4.
